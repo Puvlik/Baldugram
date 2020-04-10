@@ -20,6 +20,9 @@
 		E052E1FE24408FF8009BFA95 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E052E1FD24408FF8009BFA95 /* Bundle-Decodable.swift */; };
 		E052E20124409850009BFA95 /* ActiveChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E052E20024409850009BFA95 /* ActiveChatCell.swift */; };
 		E052E2032440A376009BFA95 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E052E2022440A376009BFA95 /* GradientView.swift */; };
+		E052E2052440B254009BFA95 /* WaitingChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E052E2042440B254009BFA95 /* WaitingChatCell.swift */; };
+		E052E2072440B3B9009BFA95 /* SelfConfiguringCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E052E2062440B3B9009BFA95 /* SelfConfiguringCell.swift */; };
+		E052E20A2440B5A9009BFA95 /* SectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E052E2092440B5A9009BFA95 /* SectionHeader.swift */; };
 		E094206C243E6F8200941365 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E094206B243E6F8200941365 /* SignUpViewController.swift */; };
 		E0942070243E852200941365 /* LineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E094206F243E852200941365 /* LineTextField.swift */; };
 		E0AD2B76243BB0AB00969D03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AD2B75243BB0AB00969D03 /* AppDelegate.swift */; };
@@ -49,6 +52,9 @@
 		E052E1FD24408FF8009BFA95 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
 		E052E20024409850009BFA95 /* ActiveChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveChatCell.swift; sourceTree = "<group>"; };
 		E052E2022440A376009BFA95 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		E052E2042440B254009BFA95 /* WaitingChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitingChatCell.swift; sourceTree = "<group>"; };
+		E052E2062440B3B9009BFA95 /* SelfConfiguringCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfConfiguringCell.swift; sourceTree = "<group>"; };
+		E052E2092440B5A9009BFA95 /* SectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeader.swift; sourceTree = "<group>"; };
 		E094206B243E6F8200941365 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		E094206F243E852200941365 /* LineTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineTextField.swift; sourceTree = "<group>"; };
 		E0AD2B72243BB0AB00969D03 /* Baldugram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Baldugram.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -123,6 +129,7 @@
 				E052E1FF24409831009BFA95 /* Cell */,
 				E052E1F32440564D009BFA95 /* MainTabBarController.swift */,
 				E052E1F524405667009BFA95 /* ListViewController.swift */,
+				E052E2092440B5A9009BFA95 /* SectionHeader.swift */,
 				E052E1F724405684009BFA95 /* PeopleViewController.swift */,
 			);
 			path = Controllers;
@@ -132,8 +139,17 @@
 			isa = PBXGroup;
 			children = (
 				E052E20024409850009BFA95 /* ActiveChatCell.swift */,
+				E052E2042440B254009BFA95 /* WaitingChatCell.swift */,
 			);
 			path = Cell;
+			sourceTree = "<group>";
+		};
+		E052E2082440B3F9009BFA95 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				E052E2062440B3B9009BFA95 /* SelfConfiguringCell.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 		E0AD2B69243BB0AB00969D03 = {
@@ -159,6 +175,7 @@
 				E0AD2B77243BB0AB00969D03 /* SceneDelegate.swift */,
 				E052E1F22440562D009BFA95 /* Controllers */,
 				E052E1F1244055FA009BFA95 /* Sign&Authorisation */,
+				E052E2082440B3F9009BFA95 /* Protocols */,
 				E020719C243D3C0400488B2D /* Extensions */,
 				E0AD2B7E243BB0AF00969D03 /* Assets.xcassets */,
 				E0AD2B80243BB0AF00969D03 /* LaunchScreen.storyboard */,
@@ -241,6 +258,7 @@
 			files = (
 				E094206C243E6F8200941365 /* SignUpViewController.swift in Sources */,
 				E0207192243D368B00488B2D /* UIFont + Extension.swift in Sources */,
+				E052E20A2440B5A9009BFA95 /* SectionHeader.swift in Sources */,
 				E052E2032440A376009BFA95 /* GradientView.swift in Sources */,
 				E0AD2B7A243BB0AB00969D03 /* AuthViewController.swift in Sources */,
 				E0AD2B76243BB0AB00969D03 /* AppDelegate.swift in Sources */,
@@ -256,6 +274,8 @@
 				E0FE39E5243F431D00A9E796 /* SegmentedControl + Extension.swift in Sources */,
 				E0207194243D375700488B2D /* UIColor + Extension.swift in Sources */,
 				E0AD2B78243BB0AB00969D03 /* SceneDelegate.swift in Sources */,
+				E052E2072440B3B9009BFA95 /* SelfConfiguringCell.swift in Sources */,
+				E052E2052440B254009BFA95 /* WaitingChatCell.swift in Sources */,
 				E0207190243D342500488B2D /* UIButton + Extension.swift in Sources */,
 				E052E1F624405667009BFA95 /* ListViewController.swift in Sources */,
 				E0FE39DF243F041900A9E796 /* LoginViewController.swift in Sources */,

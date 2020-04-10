@@ -9,11 +9,6 @@
 import Foundation
 import UIKit
 
-protocol SelfConfiguringCell {
-    static var reuseId: String { get }
-    func configure(with value: MChat)
-}
-
 class ActiveChatCell: UICollectionViewCell, SelfConfiguringCell {
     static var reuseId: String = "ActiveChatCell"
     

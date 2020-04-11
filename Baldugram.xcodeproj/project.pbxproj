@@ -25,6 +25,14 @@
 		E052E20A2440B5A9009BFA95 /* SectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E052E2092440B5A9009BFA95 /* SectionHeader.swift */; };
 		E094206C243E6F8200941365 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E094206B243E6F8200941365 /* SignUpViewController.swift */; };
 		E0942070243E852200941365 /* LineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E094206F243E852200941365 /* LineTextField.swift */; };
+		E09CCEC5244253810023CD7C /* users.json in Resources */ = {isa = PBXBuildFile; fileRef = E09CCEC4244253810023CD7C /* users.json */; };
+		E09CCEC8244255840023CD7C /* MChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09CCEC7244255840023CD7C /* MChat.swift */; };
+		E09CCECA2442558E0023CD7C /* MUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09CCEC92442558E0023CD7C /* MUser.swift */; };
+		E09CCECD24425CBC0023CD7C /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09CCECC24425CBC0023CD7C /* UserCell.swift */; };
+		E09CCECF24425EF40023CD7C /* UIViewController + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09CCECE24425EF40023CD7C /* UIViewController + Extension.swift */; };
+		E09CCED1244265D80023CD7C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09CCED0244265D80023CD7C /* ProfileViewController.swift */; };
+		E09CCED3244268E50023CD7C /* InsertableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09CCED2244268E50023CD7C /* InsertableTextField.swift */; };
+		E09CCED524426AD40023CD7C /* UIView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09CCED424426AD40023CD7C /* UIView + Extension.swift */; };
 		E0AD2B76243BB0AB00969D03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AD2B75243BB0AB00969D03 /* AppDelegate.swift */; };
 		E0AD2B78243BB0AB00969D03 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AD2B77243BB0AB00969D03 /* SceneDelegate.swift */; };
 		E0AD2B7A243BB0AB00969D03 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AD2B79243BB0AB00969D03 /* AuthViewController.swift */; };
@@ -57,6 +65,14 @@
 		E052E2092440B5A9009BFA95 /* SectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeader.swift; sourceTree = "<group>"; };
 		E094206B243E6F8200941365 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		E094206F243E852200941365 /* LineTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineTextField.swift; sourceTree = "<group>"; };
+		E09CCEC4244253810023CD7C /* users.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = users.json; sourceTree = "<group>"; };
+		E09CCEC7244255840023CD7C /* MChat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MChat.swift; sourceTree = "<group>"; };
+		E09CCEC92442558E0023CD7C /* MUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUser.swift; sourceTree = "<group>"; };
+		E09CCECC24425CBC0023CD7C /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		E09CCECE24425EF40023CD7C /* UIViewController + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + Extension.swift"; sourceTree = "<group>"; };
+		E09CCED0244265D80023CD7C /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		E09CCED2244268E50023CD7C /* InsertableTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertableTextField.swift; sourceTree = "<group>"; };
+		E09CCED424426AD40023CD7C /* UIView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + Extension.swift"; sourceTree = "<group>"; };
 		E0AD2B72243BB0AB00969D03 /* Baldugram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Baldugram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0AD2B75243BB0AB00969D03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E0AD2B77243BB0AB00969D03 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -89,12 +105,12 @@
 				E0207193243D375700488B2D /* UIColor + Extension.swift */,
 				E020718F243D342500488B2D /* UIButton + Extension.swift */,
 				E0207197243D39CA00488B2D /* UIImageView + Extension.swift */,
+				E09CCECE24425EF40023CD7C /* UIViewController + Extension.swift */,
+				E09CCED424426AD40023CD7C /* UIView + Extension.swift */,
 				E0C88A25243D4806005C5AEA /* StackView + Extension.swift */,
 				E0207191243D368B00488B2D /* UIFont + Extension.swift */,
 				E0FE39E4243F431D00A9E796 /* SegmentedControl + Extension.swift */,
 				E0207195243D394500488B2D /* UILabel + Extension.swift */,
-				E052E1F924408FC5009BFA95 /* activeChats.json */,
-				E052E1FA24408FC5009BFA95 /* waitingChats.json */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -105,6 +121,7 @@
 				E0FE39E2243F2C5D00A9E796 /* AddPhotoView.swift */,
 				E0C88A23243D3D6C005C5AEA /* ButtonFormView.swift */,
 				E052E1FD24408FF8009BFA95 /* Bundle-Decodable.swift */,
+				E09CCED2244268E50023CD7C /* InsertableTextField.swift */,
 				E052E2022440A376009BFA95 /* GradientView.swift */,
 				E094206F243E852200941365 /* LineTextField.swift */,
 				E020719B243D3BFE00488B2D /* UIKit */,
@@ -126,11 +143,12 @@
 		E052E1F22440562D009BFA95 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				E052E1FF24409831009BFA95 /* Cell */,
 				E052E1F32440564D009BFA95 /* MainTabBarController.swift */,
 				E052E1F524405667009BFA95 /* ListViewController.swift */,
-				E052E2092440B5A9009BFA95 /* SectionHeader.swift */,
+				E09CCED0244265D80023CD7C /* ProfileViewController.swift */,
 				E052E1F724405684009BFA95 /* PeopleViewController.swift */,
+				E052E1FF24409831009BFA95 /* Cell */,
+				E09CCEC62442542B0023CD7C /* Header */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -139,6 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				E052E20024409850009BFA95 /* ActiveChatCell.swift */,
+				E09CCECC24425CBC0023CD7C /* UserCell.swift */,
 				E052E2042440B254009BFA95 /* WaitingChatCell.swift */,
 			);
 			path = Cell;
@@ -150,6 +169,23 @@
 				E052E2062440B3B9009BFA95 /* SelfConfiguringCell.swift */,
 			);
 			path = Protocols;
+			sourceTree = "<group>";
+		};
+		E09CCEC62442542B0023CD7C /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				E052E2092440B5A9009BFA95 /* SectionHeader.swift */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		E09CCECB244255F50023CD7C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E09CCEC7244255840023CD7C /* MChat.swift */,
+				E09CCEC92442558E0023CD7C /* MUser.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		E0AD2B69243BB0AB00969D03 = {
@@ -173,10 +209,14 @@
 			children = (
 				E0AD2B75243BB0AB00969D03 /* AppDelegate.swift */,
 				E0AD2B77243BB0AB00969D03 /* SceneDelegate.swift */,
+				E09CCECB244255F50023CD7C /* Model */,
 				E052E1F22440562D009BFA95 /* Controllers */,
 				E052E1F1244055FA009BFA95 /* Sign&Authorisation */,
 				E052E2082440B3F9009BFA95 /* Protocols */,
 				E020719C243D3C0400488B2D /* Extensions */,
+				E052E1F924408FC5009BFA95 /* activeChats.json */,
+				E052E1FA24408FC5009BFA95 /* waitingChats.json */,
+				E09CCEC4244253810023CD7C /* users.json */,
 				E0AD2B7E243BB0AF00969D03 /* Assets.xcassets */,
 				E0AD2B80243BB0AF00969D03 /* LaunchScreen.storyboard */,
 				E0AD2B83243BB0AF00969D03 /* Info.plist */,
@@ -242,6 +282,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E09CCEC5244253810023CD7C /* users.json in Resources */,
 				E0AD2B82243BB0AF00969D03 /* LaunchScreen.storyboard in Resources */,
 				E052E1FB24408FC6009BFA95 /* activeChats.json in Resources */,
 				E0AD2B7F243BB0AF00969D03 /* Assets.xcassets in Resources */,
@@ -266,19 +307,26 @@
 				E0FE39E1243F0B6300A9E796 /* SetupProfileViewController.swift in Sources */,
 				E052E1F824405684009BFA95 /* PeopleViewController.swift in Sources */,
 				E0C88A24243D3D6C005C5AEA /* ButtonFormView.swift in Sources */,
+				E09CCED3244268E50023CD7C /* InsertableTextField.swift in Sources */,
 				E052E1FE24408FF8009BFA95 /* Bundle-Decodable.swift in Sources */,
 				E0207196243D394500488B2D /* UILabel + Extension.swift in Sources */,
+				E09CCED1244265D80023CD7C /* ProfileViewController.swift in Sources */,
 				E0FE39E3243F2C5D00A9E796 /* AddPhotoView.swift in Sources */,
+				E09CCECA2442558E0023CD7C /* MUser.swift in Sources */,
 				E0207198243D39CA00488B2D /* UIImageView + Extension.swift in Sources */,
 				E0942070243E852200941365 /* LineTextField.swift in Sources */,
 				E0FE39E5243F431D00A9E796 /* SegmentedControl + Extension.swift in Sources */,
 				E0207194243D375700488B2D /* UIColor + Extension.swift in Sources */,
+				E09CCED524426AD40023CD7C /* UIView + Extension.swift in Sources */,
 				E0AD2B78243BB0AB00969D03 /* SceneDelegate.swift in Sources */,
 				E052E2072440B3B9009BFA95 /* SelfConfiguringCell.swift in Sources */,
+				E09CCECD24425CBC0023CD7C /* UserCell.swift in Sources */,
+				E09CCECF24425EF40023CD7C /* UIViewController + Extension.swift in Sources */,
 				E052E2052440B254009BFA95 /* WaitingChatCell.swift in Sources */,
 				E0207190243D342500488B2D /* UIButton + Extension.swift in Sources */,
 				E052E1F624405667009BFA95 /* ListViewController.swift in Sources */,
 				E0FE39DF243F041900A9E796 /* LoginViewController.swift in Sources */,
+				E09CCEC8244255840023CD7C /* MChat.swift in Sources */,
 				E0C88A26243D4806005C5AEA /* StackView + Extension.swift in Sources */,
 				E052E1F42440564D009BFA95 /* MainTabBarController.swift in Sources */,
 			);

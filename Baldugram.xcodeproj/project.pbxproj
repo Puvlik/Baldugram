@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13D9163BADEF4EC2DA5E4CDE /* Pods_Baldugram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D092EC7BA73473B98F434B0 /* Pods_Baldugram.framework */; };
 		E0207190243D342500488B2D /* UIButton + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E020718F243D342500488B2D /* UIButton + Extension.swift */; };
 		E0207192243D368B00488B2D /* UIFont + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0207191243D368B00488B2D /* UIFont + Extension.swift */; };
 		E0207194243D375700488B2D /* UIColor + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0207193243D375700488B2D /* UIColor + Extension.swift */; };
@@ -25,6 +26,11 @@
 		E052E20A2440B5A9009BFA95 /* SectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E052E2092440B5A9009BFA95 /* SectionHeader.swift */; };
 		E094206C243E6F8200941365 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E094206B243E6F8200941365 /* SignUpViewController.swift */; };
 		E0942070243E852200941365 /* LineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E094206F243E852200941365 /* LineTextField.swift */; };
+		E09AE15D24432AD200BCE45C /* ChatRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09AE15C24432AD200BCE45C /* ChatRequestViewController.swift */; };
+		E09AE15F2443316500BCE45C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E09AE15E2443316500BCE45C /* GoogleService-Info.plist */; };
+		E09AE16224435BAE00BCE45C /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09AE16124435BAE00BCE45C /* AuthService.swift */; };
+		E09AE1642443659A00BCE45C /* Validators.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09AE1632443659A00BCE45C /* Validators.swift */; };
+		E09AE166244366CE00BCE45C /* AuthError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09AE165244366CE00BCE45C /* AuthError.swift */; };
 		E09CCEC5244253810023CD7C /* users.json in Resources */ = {isa = PBXBuildFile; fileRef = E09CCEC4244253810023CD7C /* users.json */; };
 		E09CCEC8244255840023CD7C /* MChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09CCEC7244255840023CD7C /* MChat.swift */; };
 		E09CCECA2442558E0023CD7C /* MUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09CCEC92442558E0023CD7C /* MUser.swift */; };
@@ -47,6 +53,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		43CDDDC33614AD415D930FAC /* Pods-Baldugram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Baldugram.debug.xcconfig"; path = "Target Support Files/Pods-Baldugram/Pods-Baldugram.debug.xcconfig"; sourceTree = "<group>"; };
+		6D092EC7BA73473B98F434B0 /* Pods_Baldugram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Baldugram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4EA28655653A943D61AAF96 /* Pods-Baldugram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Baldugram.release.xcconfig"; path = "Target Support Files/Pods-Baldugram/Pods-Baldugram.release.xcconfig"; sourceTree = "<group>"; };
 		E020718F243D342500488B2D /* UIButton + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton + Extension.swift"; sourceTree = "<group>"; };
 		E0207191243D368B00488B2D /* UIFont + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont + Extension.swift"; sourceTree = "<group>"; };
 		E0207193243D375700488B2D /* UIColor + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + Extension.swift"; sourceTree = "<group>"; };
@@ -65,6 +74,11 @@
 		E052E2092440B5A9009BFA95 /* SectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeader.swift; sourceTree = "<group>"; };
 		E094206B243E6F8200941365 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		E094206F243E852200941365 /* LineTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineTextField.swift; sourceTree = "<group>"; };
+		E09AE15C24432AD200BCE45C /* ChatRequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRequestViewController.swift; sourceTree = "<group>"; };
+		E09AE15E2443316500BCE45C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E09AE16124435BAE00BCE45C /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		E09AE1632443659A00BCE45C /* Validators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validators.swift; sourceTree = "<group>"; };
+		E09AE165244366CE00BCE45C /* AuthError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthError.swift; sourceTree = "<group>"; };
 		E09CCEC4244253810023CD7C /* users.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = users.json; sourceTree = "<group>"; };
 		E09CCEC7244255840023CD7C /* MChat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MChat.swift; sourceTree = "<group>"; };
 		E09CCEC92442558E0023CD7C /* MUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUser.swift; sourceTree = "<group>"; };
@@ -93,12 +107,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13D9163BADEF4EC2DA5E4CDE /* Pods_Baldugram.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CBB8E5645F72A5EE9E82AE37 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				43CDDDC33614AD415D930FAC /* Pods-Baldugram.debug.xcconfig */,
+				C4EA28655653A943D61AAF96 /* Pods-Baldugram.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DE2E5AABF895FFEF1DA91629 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D092EC7BA73473B98F434B0 /* Pods_Baldugram.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E020719B243D3BFE00488B2D /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
@@ -119,8 +151,8 @@
 			isa = PBXGroup;
 			children = (
 				E0FE39E2243F2C5D00A9E796 /* AddPhotoView.swift */,
-				E0C88A23243D3D6C005C5AEA /* ButtonFormView.swift */,
 				E052E1FD24408FF8009BFA95 /* Bundle-Decodable.swift */,
+				E0C88A23243D3D6C005C5AEA /* ButtonFormView.swift */,
 				E09CCED2244268E50023CD7C /* InsertableTextField.swift */,
 				E052E2022440A376009BFA95 /* GradientView.swift */,
 				E094206F243E852200941365 /* LineTextField.swift */,
@@ -132,10 +164,10 @@
 		E052E1F1244055FA009BFA95 /* Sign&Authorisation */ = {
 			isa = PBXGroup;
 			children = (
+				E0AD2B79243BB0AB00969D03 /* AuthViewController.swift */,
 				E0FE39DE243F041900A9E796 /* LoginViewController.swift */,
 				E0FE39E0243F0B6300A9E796 /* SetupProfileViewController.swift */,
 				E094206B243E6F8200941365 /* SignUpViewController.swift */,
-				E0AD2B79243BB0AB00969D03 /* AuthViewController.swift */,
 			);
 			path = "Sign&Authorisation";
 			sourceTree = "<group>";
@@ -143,10 +175,11 @@
 		E052E1F22440562D009BFA95 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				E052E1F32440564D009BFA95 /* MainTabBarController.swift */,
+				E09AE15C24432AD200BCE45C /* ChatRequestViewController.swift */,
 				E052E1F524405667009BFA95 /* ListViewController.swift */,
-				E09CCED0244265D80023CD7C /* ProfileViewController.swift */,
+				E052E1F32440564D009BFA95 /* MainTabBarController.swift */,
 				E052E1F724405684009BFA95 /* PeopleViewController.swift */,
+				E09CCED0244265D80023CD7C /* ProfileViewController.swift */,
 				E052E1FF24409831009BFA95 /* Cell */,
 				E09CCEC62442542B0023CD7C /* Header */,
 			);
@@ -171,6 +204,24 @@
 			path = Protocols;
 			sourceTree = "<group>";
 		};
+		E09AE16024435B6A00BCE45C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E09CCECB244255F50023CD7C /* Model */,
+				E09AE16124435BAE00BCE45C /* AuthService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		E09AE167244368BF00BCE45C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E09AE165244366CE00BCE45C /* AuthError.swift */,
+				E09AE1632443659A00BCE45C /* Validators.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		E09CCEC62442542B0023CD7C /* Header */ = {
 			isa = PBXGroup;
 			children = (
@@ -193,6 +244,8 @@
 			children = (
 				E0AD2B74243BB0AB00969D03 /* Baldugram */,
 				E0AD2B73243BB0AB00969D03 /* Products */,
+				CBB8E5645F72A5EE9E82AE37 /* Pods */,
+				DE2E5AABF895FFEF1DA91629 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -209,17 +262,19 @@
 			children = (
 				E0AD2B75243BB0AB00969D03 /* AppDelegate.swift */,
 				E0AD2B77243BB0AB00969D03 /* SceneDelegate.swift */,
-				E09CCECB244255F50023CD7C /* Model */,
+				E09AE16024435B6A00BCE45C /* Services */,
 				E052E1F22440562D009BFA95 /* Controllers */,
 				E052E1F1244055FA009BFA95 /* Sign&Authorisation */,
 				E052E2082440B3F9009BFA95 /* Protocols */,
 				E020719C243D3C0400488B2D /* Extensions */,
+				E09AE167244368BF00BCE45C /* Helpers */,
 				E052E1F924408FC5009BFA95 /* activeChats.json */,
 				E052E1FA24408FC5009BFA95 /* waitingChats.json */,
 				E09CCEC4244253810023CD7C /* users.json */,
 				E0AD2B7E243BB0AF00969D03 /* Assets.xcassets */,
 				E0AD2B80243BB0AF00969D03 /* LaunchScreen.storyboard */,
 				E0AD2B83243BB0AF00969D03 /* Info.plist */,
+				E09AE15E2443316500BCE45C /* GoogleService-Info.plist */,
 			);
 			path = Baldugram;
 			sourceTree = "<group>";
@@ -231,9 +286,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E0AD2B86243BB0AF00969D03 /* Build configuration list for PBXNativeTarget "Baldugram" */;
 			buildPhases = (
+				5F38D299584136EE68108B82 /* [CP] Check Pods Manifest.lock */,
 				E0AD2B6E243BB0AB00969D03 /* Sources */,
 				E0AD2B6F243BB0AB00969D03 /* Frameworks */,
 				E0AD2B70243BB0AB00969D03 /* Resources */,
+				F87E9F4F20A9F0081B07BD07 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -287,10 +344,53 @@
 				E052E1FB24408FC6009BFA95 /* activeChats.json in Resources */,
 				E0AD2B7F243BB0AF00969D03 /* Assets.xcassets in Resources */,
 				E052E1FC24408FC6009BFA95 /* waitingChats.json in Resources */,
+				E09AE15F2443316500BCE45C /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5F38D299584136EE68108B82 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Baldugram-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F87E9F4F20A9F0081B07BD07 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Baldugram/Pods-Baldugram-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Baldugram/Pods-Baldugram-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Baldugram/Pods-Baldugram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E0AD2B6E243BB0AB00969D03 /* Sources */ = {
@@ -303,8 +403,10 @@
 				E052E2032440A376009BFA95 /* GradientView.swift in Sources */,
 				E0AD2B7A243BB0AB00969D03 /* AuthViewController.swift in Sources */,
 				E0AD2B76243BB0AB00969D03 /* AppDelegate.swift in Sources */,
+				E09AE166244366CE00BCE45C /* AuthError.swift in Sources */,
 				E052E20124409850009BFA95 /* ActiveChatCell.swift in Sources */,
 				E0FE39E1243F0B6300A9E796 /* SetupProfileViewController.swift in Sources */,
+				E09AE1642443659A00BCE45C /* Validators.swift in Sources */,
 				E052E1F824405684009BFA95 /* PeopleViewController.swift in Sources */,
 				E0C88A24243D3D6C005C5AEA /* ButtonFormView.swift in Sources */,
 				E09CCED3244268E50023CD7C /* InsertableTextField.swift in Sources */,
@@ -312,6 +414,7 @@
 				E0207196243D394500488B2D /* UILabel + Extension.swift in Sources */,
 				E09CCED1244265D80023CD7C /* ProfileViewController.swift in Sources */,
 				E0FE39E3243F2C5D00A9E796 /* AddPhotoView.swift in Sources */,
+				E09AE15D24432AD200BCE45C /* ChatRequestViewController.swift in Sources */,
 				E09CCECA2442558E0023CD7C /* MUser.swift in Sources */,
 				E0207198243D39CA00488B2D /* UIImageView + Extension.swift in Sources */,
 				E0942070243E852200941365 /* LineTextField.swift in Sources */,
@@ -327,6 +430,7 @@
 				E052E1F624405667009BFA95 /* ListViewController.swift in Sources */,
 				E0FE39DF243F041900A9E796 /* LoginViewController.swift in Sources */,
 				E09CCEC8244255840023CD7C /* MChat.swift in Sources */,
+				E09AE16224435BAE00BCE45C /* AuthService.swift in Sources */,
 				E0C88A26243D4806005C5AEA /* StackView + Extension.swift in Sources */,
 				E052E1F42440564D009BFA95 /* MainTabBarController.swift in Sources */,
 			);
@@ -462,6 +566,7 @@
 		};
 		E0AD2B87243BB0AF00969D03 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43CDDDC33614AD415D930FAC /* Pods-Baldugram.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -480,6 +585,7 @@
 		};
 		E0AD2B88243BB0AF00969D03 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4EA28655653A943D61AAF96 /* Pods-Baldugram.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

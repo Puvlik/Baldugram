@@ -8,5 +8,7 @@ target 'Baldugram' do
   # Pods for Baldugram
 pod 'Firebase/Analytics'
 pod 'Firebase/Auth'
+pod 'Firebase/Firestore'
+pod 'GoogleSignIn'
 
 end
